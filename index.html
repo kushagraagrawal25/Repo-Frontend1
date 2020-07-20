@@ -27,6 +27,8 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css'>
+  <link href="css/style2.css" rel="stylesheet">
+  <link href="assets/css/login-partner.css" rel="stylesheet">
 <style>
 .row {
     display: -ms-flexbox;
@@ -36,7 +38,31 @@
     margin-right: 0px;
     margin-left: -15px;
 }
+/*.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+}*/
 </style>
+
+<link href="css/style2.css" rel="stylesheet">
+<link href="assets/css/login-partner.css" rel="stylesheet">
 <link href="assets/css/signup-modal.css" rel="stylesheet">
 
 </head>
@@ -72,8 +98,8 @@
           </li>
           <li><a href="about-us.html">About Us</a></li>
           <li><a href="blog-description-page.html">Blogs</a></li>
-          <li><a href="login-user.html">Log In</a></li>
-          <li><a data-toggle="modal" data-target="#myModal">Sign Up</a></li>
+          <li><a data-toggle="modal" data-target="#myModal1">Sign in</a></li>
+         <li><a data-toggle="modal" data-target="#myModal">Sign Up</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -1006,6 +1032,8 @@
 <!-- #footer -->
 
     <!--Modal-->
+
+
 <div class="modal fade container-fluid" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -1016,7 +1044,7 @@
             <div class="modal-body">
                 <div class="form-group">
                     <form id="first">
-                        <div class="row" style="margin-top: 5px; margin-bottom: 15px;"> 
+                        <div class="row" style="margin-top: 5px; margin-bottom: 15px;">
                             <div class="col-sm-3"><input type="radio" name="user" checked><small>&nbspUser</small></div>
                             <div class="col-sm-4"><input type="radio" name="user"><small>&nbspProperty Owner</small></div>
                             <div class="col-sm-4"><input type="radio" name="user"><small>&nbspService Provider</small></div>
@@ -1074,7 +1102,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="form-group"> 
+                <div class="form-group">
                 <hr>
                 <form id="fifth">
                   <div class="row listbox" style="margin: 0 auto;">
@@ -1092,35 +1120,128 @@
             </div>
         </div>
     </div>
+</div></div>
+<!--Modal-->
+
+<div class="modal" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="width:100%">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            
+            <div class="modal-body" style="width:100%">
+                <div class="row container-fluid justify-content-center">
+  <div class="col-sm-6 div-log-in-user">
+    <h2>Login as User</h2>
+
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="someone@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="********" required>
+        <small id="emailHelp" class="form-text text-muted"><a href="# ">Forgot password?</a></small>
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Remember Details</label>
+      </div>
+      <div class="justify-content-around">
+      <button onclick="location.href = 'index-2.html';" type="submit" class="btn btn-primary btn-login-user"><a>Submit</a></button>
+    </form>
+    <button type="submit" class="btn btn-primary btn-login-user" id="btn1">Login as Partner</a></button>
+    <br>
+    </div>
+    <br>
+    <a>Don't have an account?</a> &nbsp;&nbsp;
+    <button type="submit" class="btn btn-primary btn-login-user" id="btn">Sign Up</button>
+  </div>
+
+<div class="col-lg-4">
+    <img  src="img/login/login-user.jpg" id="image" alt="user-login-image">
+  </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+
 </div>
 
 
+
+<!-- Modal -->
+<div class="modal" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="width:100%">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            
+            <div class="modal-body" style="width:100%">
+                  <div class="row container-fluid justify-content-center">
+  <div class="col-sm-6 div-log-in-user">
+    <h2>Login as Partner</h2>
+
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="someone@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="********" required>
+        <small id="emailHelp" class="form-text text-muted"><a href="#">Forgot password?</a></small>
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Remember Details</label>
+      </div>
+      <div class="justify-content-around">
+      <button onclick="location.href = 'index-2.html';" type="submit" class="btn btn-primary btn-login-user"><a>Submit</a></button>
+    </form>
+    <button  type="submit" class="btn btn-primary btn-login-user" id="btn3">Login as User</a></button>
+    <br>
+    </div>
+    <br>
+    <a>Don't have an account?</a> &nbsp;&nbsp;
+    <button type="submit" class="btn btn-primary btn-login-user" id="btn2">Sign Up</a></button>
+  </div>
+
+<div class="col-lg-4">
+    <img  src="img/login/login-partner.jpg" id="image" alt="user-login-image">
+  </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
 <script>
 $('#first').submit(function(e){
-    $('#first').hide(); 
-    $('#second').show(); 
-    $('#third').hide(); 
-    $('#fourth').hide(); 
+    $('#first').hide();
+    $('#second').show();
+    $('#third').hide();
+    $('#fourth').hide();
     e.preventDefault();
-    // Or with: return false;        
+    // Or with: return false;
 });
 $('#second').submit(function(e){
-    $('#first').hide(); 
+    $('#first').hide();
     $('#second').hide();
-    $('#third').show(); 
-     $('#fourth').show(); 
+    $('#third').show();
+     $('#fourth').show();
      $('#fifth').hide();
     e.preventDefault();
-    // Or with: return false;        
+    // Or with: return false;
 });
 
 $('#back').click(function(e){
-    $('#first').show(); 
-    $('#second').hide(); 
-    $('#third').hide(); 
-    $('#fourth').hide(); 
+    $('#first').show();
+    $('#second').hide();
+    $('#third').hide();
+    $('#fourth').hide();
     e.preventDefault();
-    // Or with: return false;        
+    // Or with: return false;
 });
 </script>
 
@@ -1221,6 +1342,46 @@ $('#back').click(function(e){
     })();
   </script>
   <!--End of Tawk.to Script-->
+<script>
+$("#btn").on( "click", function() {
+        $('#myModal1').modal('hide');  
+});
+//trigger next modal
+$("#btn").on( "click", function() {
+        $('#myModal').modal('show');  
+});
+
+</script>
+<script>
+$("#btn1").on( "click", function() {
+        $('#myModal1').modal('hide');  
+});
+//trigger next modal
+$("#btn1").on( "click", function() {
+        $('#myModal2').modal('show');  
+});
+
+</script>
+<script>
+$("#btn2").on( "click", function() {
+        $('#myModal2').modal('hide');  
+});
+//trigger next modal
+$("#btn2").on( "click", function() {
+        $('#myModal').modal('show');  
+});
+
+</script>
+<script>
+$("#btn3").on( "click", function() {
+        $('#myModal2').modal('hide');  
+});
+//trigger next modal
+$("#btn3").on( "click", function() {
+        $('#myModal1').modal('show');  
+});
+
+</script>
 </body>
 
 </html>
