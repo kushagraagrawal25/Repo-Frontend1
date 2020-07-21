@@ -98,7 +98,7 @@
           </li>
           <li><a href="about-us.html">About Us</a></li>
           <li><a href="blog-description-page.html">Blogs</a></li>
-          <li><a data-toggle="modal" data-target="#myModal1">Sign in</a></li>
+          <li><a data-toggle="modal" data-target="#myModal1">Log in</a></li>
          <li><a data-toggle="modal" data-target="#myModal">Sign Up</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -1056,7 +1056,7 @@
                         <input required type="checkbox">&nbspBy continuing, you agree to our <a href="policy-page.html">Terms and Conditions</a>
                         <br>
                         <center><input type="submit" class="btn btn-success" value="Send OTP" style="margin: 5px 0;"></center>
-                        <center><small>Already have an account? <a href="login-user.html">Log In now</a></small></center>
+                        <center><small>Already have an account? <a href="#" id="btn4">Log In now</a></small></center>
                     </form>
                 </div>
                 <div class="form-group">
@@ -1124,13 +1124,17 @@
 <!--Modal-->
 
 <div class="modal" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="width:100%">
-    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-dialog" role="document">
         <div class="modal-content">
+        <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Login as User</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
             
             <div class="modal-body" style="width:100%">
                 <div class="row container-fluid justify-content-center">
-  <div class="col-sm-6 div-log-in-user">
-    <h2>Login as User</h2>
+  <div class="col div-log-in-user">
+    
 
     <form>
       <div class="form-group">
@@ -1147,9 +1151,9 @@
         <label class="form-check-label" for="exampleCheck1">Remember Details</label>
       </div>
       <div class="justify-content-around">
-      <button onclick="location.href = 'index-2.html';" type="submit" class="btn btn-primary btn-login-user"><a>Submit</a></button>
+      <button onclick="location.href = 'index-2.html';" type="submit" class="btn btn-primary btn-login-user" style="background-color:#FF8D1E;"><a>Submit</a></button>
     </form>
-    <button type="submit" class="btn btn-primary btn-login-user" id="btn1">Login as Partner</a></button>
+    <button type="submit" class="btn btn-primary btn-login-user" id="btn1" style="background-color:#90FF1E;">Login as Partner</a></button>
     <br>
     </div>
     <br>
@@ -1157,9 +1161,7 @@
     <button type="submit" class="btn btn-primary btn-login-user" id="btn">Sign Up</button>
   </div>
 
-<div class="col-lg-4">
-    <img  src="img/login/login-user.jpg" id="image" alt="user-login-image">
-  </div>
+
 </div>
 
             </div>
@@ -1172,13 +1174,17 @@
 
 <!-- Modal -->
 <div class="modal" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="width:100%">
-    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-dialog" role="document">
         <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Login as Partner</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
             
             <div class="modal-body" style="width:100%">
                   <div class="row container-fluid justify-content-center">
-  <div class="col-sm-6 div-log-in-user">
-    <h2>Login as Partner</h2>
+  <div class="col div-log-in-user">
+    
 
     <form>
       <div class="form-group">
@@ -1195,9 +1201,9 @@
         <label class="form-check-label" for="exampleCheck1">Remember Details</label>
       </div>
       <div class="justify-content-around">
-      <button onclick="location.href = 'index-2.html';" type="submit" class="btn btn-primary btn-login-user"><a>Submit</a></button>
-    </form>
-    <button  type="submit" class="btn btn-primary btn-login-user" id="btn3">Login as User</a></button>
+      <button onclick="location.href = 'index-2.html';" type="submit" class="btn btn-primary btn-login-user" style="background-color:#FF8D1E;"><a>Submit</a></button>
+    </form>&nbsp;&nbsp;
+    <button  type="submit" class="btn btn-primary btn-login-user" id="btn3" style="background-color:#8D1EFF;">Login as User</a></button>
     <br>
     </div>
     <br>
@@ -1205,9 +1211,7 @@
     <button type="submit" class="btn btn-primary btn-login-user" id="btn2">Sign Up</a></button>
   </div>
 
-<div class="col-lg-4">
-    <img  src="img/login/login-partner.jpg" id="image" alt="user-login-image">
-  </div>
+
 </div>
 
             </div>
@@ -1378,6 +1382,16 @@ $("#btn3").on( "click", function() {
 });
 //trigger next modal
 $("#btn3").on( "click", function() {
+        $('#myModal1').modal('show');  
+});
+
+</script>
+<script>
+$("#btn4").on( "click", function() {
+        $('#myModal').modal('hide');  
+});
+//trigger next modal
+$("#btn4").on( "click", function() {
         $('#myModal1').modal('show');  
 });
 
