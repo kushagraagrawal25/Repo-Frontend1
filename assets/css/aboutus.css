@@ -117,6 +117,10 @@ body {
   margin-bottom: 80px;
 }
 
+.owl-carousel.owl-drag .owl-item {
+  touch-action: auto;
+}
+
 .owl-carousel .owl-nav [class*="owl-"] {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
