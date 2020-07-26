@@ -2,821 +2,811 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <title>SheltOwn</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>SheltOwn</title>
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
 
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Bootstrap CSS File -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/style2.css" rel="stylesheet">
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
 
 
-  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css'>
 
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
 
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
-  <!-- Custom styles for this template -->
-  <link href="assets/css/become-partner.css" rel="stylesheet">
-<link href="assets/css/signup-modal.css" rel="stylesheet">
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="assets/css/become-partner.css" rel="stylesheet">
+    <link href="assets/css/signup-modal.css" rel="stylesheet">
 
 </head>
 
-<body id="body" onload="myFunction()" style="background-color: white;">
+<body id="body" onload="myFunction()">
 
-   <!--==========================
+    <!--==========================
     Header
   ============================-->
-  <header id="header">
-    <div class="container-fluid">
+    <header id="header">
+        <div class="container-fluid">
 
-      <div id="logo" class="pull-left">
-        <a href="index.html">
-          <img src="img/favicon.png" alt="logo">
-        </a>
-      </div>
-
-<div id="logo" class="pull-left" style="margin-top:8px;">
-        <a href="index.html">
-        <p >SheltOwn</p>
-        </a>
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="index.html">Home</a></li>
-          <li class="menu-has-children"><a>Our Services</a>
-            <ul>
-              <li><a href="personal_services1.html">Personalised Services</a></li>
-              <li><a href="rental-services.html">Rental Services</a></li>
-            </ul>
-          </li>
-          <li><a href="about-us.html">About Us</a></li>
-          <li><a href="blog-description-page.html">Blogs</a></li>
-          <li><a href="login-user.html">Log In</a></li>
-          <li><a data-toggle="modal" data-target="#myModal">Sign Up</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
-  <main role="main">
-
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="home.png" alt="">
-          <div class="container">
-            <div class="carousel-caption text-left">
-              <h1>List Your property</h1>
-              <p>What you need to know ?
-                Verified Tenants.
-                Hassle free Rent collection.<br />
-              <b>List at the right place and at the right price.</b></p>
-              <p><a class="btn btn-lg btn-primary" style="color:#fff;" data-toggle="modal" data-target="#myModal" role="button">Sign up today</a></p>
+            <div id="logo" class="pull-left">
+                <a href="index.html">
+                    <img src="img/favicon.png" alt="logo">
+                </a>
             </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="service.png" alt="">
-          <div class="container">
-            <div class="carousel-caption text-left">
-              <h1>List your Service</h1>
-              <p>You can start today. Be super productive, spread your services with magic and stories.<br>
-                <b>Build new relations.<b></p>
-              <p><a class="btn btn-lg btn-primary" style="color:#fff;" data-toggle="modal" data-target="#myModal" role="button">Sign up today</a></p>
+
+            <div id="logo" class="pull-left" style="margin-top:8px;">
+                <a href="index.html">
+                    <p>SheltOwn</p>
+                </a>
             </div>
-          </div>
+
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="menu-active"><a href="index.html">Home</a></li>
+                    <li class="menu-has-children"><a>Our Services</a>
+                        <ul>
+                            <li><a href="personal_services1.html">Personalised Services</a></li>
+                            <li><a href="rental-services.html">Rental Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="blog-description-page.html">Blogs</a></li>
+                    <li><a href="login-user.html">Log In</a></li>
+                    <li><a data-toggle="modal" data-target="#myModal">Sign Up</a></li>
+                </ul>
+            </nav><!-- #nav-menu-container -->
         </div>
-      </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+    </header><!-- #header -->
+    <main role="main">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="home.png" alt="">
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>List Your property</h1>
+                            <p>What you need to know ?
+                                Verified Tenants.
+                                Hassle free Rent collection.<br />
+                                <b>List at the right place and at the right price.</b></p>
+                            <p><a class="btn btn-lg btn-primary" style="color:#fff;" data-toggle="modal" data-target="#myModal" role="button">Sign up today</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="service.png" alt="">
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>List your Service</h1>
+                            <p>You can start today. Be super productive, spread your services with magic and stories.<br/>
+                                <b>Build new relations.</b></p>
+                            <p><a class="btn btn-lg btn-primary" style="color:#fff;" data-toggle="modal" data-target="#myModal" role="button">Sign up today</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
 
 
-    <!-- Marketing messaging and featurettes
+        <!-- Marketing messaging and featurettes
   ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
+        <div class="container marketing">
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row counter">
-        <div class="col-3 col-sm-3">
-          <center>
-            <h5>500+</h5>
-            <p>Partners</p>
-          </center>
+            <!-- Three columns of text below the carousel -->
+            <div class="row counter">
+                <div class="col-4 py-3 col-sm-4">
+                    <center>
+                        <h5>1100+</h5>
+                        <p>Rooms</p>
+                    </center>
+                </div>
+                <div class="col-4 py-3 col-sm-4">
+                    <center>
+                        <h5>2000+</h5>
+                        <p>Beds</p>
+                    </center>
+                </div>
+                <div class="col-4 py-3 col-sm-4">
+                    <center>
+                        <h5>25</h5>
+                        <p>Cities across India</p>
+                    </center>
+                </div>
+            </div><!-- /.row -->
         </div>
-        <div class="col-3 col-sm-3">
-          <center>
-            <h5>1100+</h5>
-            <p>Rooms</p>
-          </center>
-        </div>
-        <div class="col-3 col-sm-3">
-          <center>
-            <h5>2000+</h5>
-            <p>Beds</p>
-          </center>
-        </div>
-        <div class="col-3 col-sm-3">
-          <center>
-            <h5>25</h5>
-            <p>Cities across India</p>
-          </center>
-        </div>
-      </div><!-- /.row -->
-    </div>
 
-    <!-- START THE FEATURETTES -->
-    <div class="container marketing">
-      <hr class="featurette-divider">
+        <!-- START THE FEATURETTES -->
+        <div class="container marketing">
+            <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Not just a Partner, <span>You are Family to us.</span></h2>
-          <p class="lead">Every Partner with SheltOwn gets <i class="fa fa-arrow-right"></i></p>
-          <p><b>How to join SheltOwn Family?</b></p>
-          <small> Step 1: <a class="btn btn-sm btn-success" style="color:#fff;" data-toggle="modal" data-target="#myModal">Sign up</a> or Call us at <a href="#"> <i class="fa fa-phone"></i> </a> </small>
-          <br><small> Step 2: Hassle Free Agreement.</small>
-          <br><small> Step 3: Increased occupency, online Rent, Branding <i class="fa fa-check"></i></small>
-          <br>
-          <br>
-        </div>
-        <div class="col-md-5">
-          <img src="become-partner-property.png" alt="...">
-        </div>
-      </div>
-      <hr class="featurette-divider">
-      <div class="container marketing">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Not just a Partner, <span>You are Family to us.</span></h2>
+                    <p><b>How to join SheltOwn Family?</b></p>
+                    <small> Step 1: Sign up</small>
+                    <br><small> Step 2: Hassle Free Paperwork.</small>
+                    <br><small> Step 3: Increased occupency, online Rent, Branding </small>
+                    <br>
+                    <br>
+                </div>
+                <div class="col-md-5">
+                    <img src="become-partner-property.png" alt="...">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="container marketing">
 
-        <!-- Three columns of text below the carousel -->
-        <div class="row counter" style="background-color: #5FDDE0;">
-          <div class="col-12 col-sm-12">
-            <center>
-              <small><b>We make sure you get your worth</b></small>
-            </center>
-          </div>
-        </div><!-- /.row -->
-      </div>
-      <hr class="featurette-divider">
+                <!-- Three columns of text below the carousel -->
+                <div class="row counter" style="background-color: #2EC4B6;">
+                    <div class="col-12 py-3 col-sm-12">
+                        <center>
+                            <small><b>We make sure you get your worth</b></small>
+                        </center>
+                    </div>
+                </div><!-- /.row -->
+            </div>
+            <hr class="featurette-divider">
 
-      <div class="container marketing">
+            <div class="container marketing">
 
-        <!-- Three columns of text below the carousel -->
-        <div class="row counter">
-          <div class="col-4 col-sm-4">
-            <center>
-              <h5>5000+</h5>
-              <p>Partners</p>
-            </center>
-          </div>
-          <div class="col-4 col-sm-4">
-            <center>
-              <h5>8000+</h5>
-              <p>Services</p>
-            </center>
-          </div>
-          <div class="col-4 col-sm-4">
-            <center>
-              <h5>2000+</h5>
-              <p>Cities across India</p>
-            </center>
-          </div>
-        </div><!-- /.row -->
-      </div>
+                <!-- Three columns of text below the carousel -->
+                <div class="row counter">
+                    <div class="col-4 py-3 col-sm-4">
+                        <center>
+                            <h5>5000+</h5>
+                            <p>Partners</p>
+                        </center>
+                    </div>
+                    <div class="col-4 py-3 col-sm-4">
+                        <center>
+                            <h5>8000+</h5>
+                            <p>Services</p>
+                        </center>
+                    </div>
+                    <div class="col-4 py-3 col-sm-4">
+                        <center>
+                            <h5>2000+</h5>
+                            <p>Cities across India</p>
+                        </center>
+                    </div>
+                </div><!-- /.row -->
+            </div>
 
-<hr class="featurette-divider">
+            <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Your Skills, <span>Our Support.</span></h2>
-          <p class="lead"><i class="fa fa-arrow-left"></i> Every Service Partner with SheltOwn gets</p>
-          <p><b>How to join SheltOwn Family?</b></p>
-          <small> Step 1: <a class="btn btn-sm btn-success" style="color:#fff;" data-toggle="modal" data-target="#myModal">Sign up</a> or Call us at <a href="#"> <i class="fa fa-phone"></i> </a> </small>
-          <br><small> Step 2: Hassle Free Agreement.</small>
-          <br><small> Step 3: Get Bookings and Rewards <i class="fa fa-check"></i></small>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <img style="margin-top: 30px;" src="become-service-partner.png" alt="....">
-        </div>
-        <br>
-        <br>
-      </div>
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Your Skills, <span>Our Support.</span></h2>
+                    <p><b>How to join SheltOwn Family?</b></p>
+                    <small> Step 1: Sign up</small>
+                    <br><small> Step 2: Hassle Free Paperwork.</small>
+                    <br><small> Step 3: Get Bookings and Rewards </small>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img style="margin-top: 30px;" src="become-service-partner.png" alt="....">
+                </div>
+                <br>
+                <br>
+            </div>
 
-      <hr class="featurette-divider">
-      <div class="container marketing">
+            <hr class="featurette-divider">
+            <div class="container marketing">
 
-        <!-- Three columns of text below the carousel -->
-        <div class="row counter" style="background-color: #5FDDE0;">
-          <div class="col-12 col-sm-12">
-            <center>
-              <small><b>We make sure you get your work</b></small>
-            </center>
-          </div>
-        </div><!-- /.row -->
-      </div>
-      <!-- /END THE FEATURETTES -->
-<hr class="featurette-divider">
-    </div><!-- /.container -->
+                <!-- Three columns of text below the carousel -->
+                <div class="row counter" style="background-color: #2EC4B6;">
+                    <div class="col-12 py-3 col-sm-12">
+                        <center>
+                            <small><b>We make sure you get your work</b></small>
+                        </center>
+                    </div>
+                </div><!-- /.row -->
+            </div>
+            <!-- /END THE FEATURETTES -->
+            <hr class="featurette-divider">
+        </div><!-- /.container -->
 
-  </main>
-  <!--==========================
+    </main>
+    <!--==========================
     Footer
   ============================-->
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 about-text">
-          <h6>About</h6>
-          <p class="text-justify" style="color: #fff;">We are a strong team focused on building a network where we could serve you regarding all your needs of having your own shelter.
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 about-text">
+                    <h6>About</h6>
+                    <p class="text-justify" style="color: #fff;">We are a strong team focused on building a network where we could serve you regarding all your needs of having your own shelter.
 
-            We are bound to provide you the best possible care and support which helps you meet your demands.
+                        We are bound to provide you the best possible care and support which helps you meet your demands.
 
-            Our core values- “Honesty, Authenticity, Concerns for Customer’s Privacy and Safety” are all closely interwoven into the fibre of our efforts.
+                        Our core values- “Honesty, Authenticity, Concerns for Customer’s Privacy and Safety” are all closely interwoven into the fibre of our efforts.
 
-            We help you to find your match, book rental homes of choice across Indian cities. We assist with "Move-in, Personalised services, Transportation and Appliances & Furniture rentals".
+                        We help you to find your match, book rental homes of choice across Indian cities. We assist with "Move-in, Personalised services, Transportation and Appliances & Furniture rentals".
 
-            We are with you whenever you are in need!
-          </p>
-          <p style="color: #fff;">Accept our warm SheltOwn hug.</p>
-        </div>
+                        We are with you whenever you are in need!
+                    </p>
+                    <p style="color: #fff;">Accept our warm SheltOwn hug.</p>
+                </div>
 
-        <div class="col-xs-6 col-md-3 category-text">
-          <ul class="footer-links">
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="policy-page.html">Policy</a></li>
-            <li><a href="policy-page.html">FAQs</a></li>
-            <li><a href="policy-page.html">SheltOwn+</a></li>
-            <li><a href="policy-page.html">SheltOwn Family+</a></li>
-            <li><a href="about-us.html#contactus-scroll" class="scrollto">Contact Us</a></li>
-          </ul>
-        </div>
+                <div class="col-xs-6 col-md-3 category-text">
+                    <ul class="footer-links">
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="policy-page.html">Policy</a></li>
+                        <li><a href="policy-page.html">FAQs</a></li>
+                        <li><a href="policy-page.html">SheltOwn+</a></li>
+                        <li><a href="policy-page.html">SheltOwn Family+</a></li>
+                        <li><a href="about-us.html#contactus-scroll" class="scrollto">Contact Us</a></li>
+                    </ul>
+                </div>
 
-        <div class="col-xs-6 col-md-3 quick-text">
-          <ul class="footer-links">
-            <li><a href="testimonials.html">Testimonials</a></li>
-            <li><a href="blog-description-page.html">Blogs</a></li>
-            <li><a href="work-with-us.html">Join our Team</a></li>
-            <li><a href="become-partner.html">List your Property</a></li>
-            <li><a href="become-partner.html">Become our Service Partner</a></li>
-            <li><a href="#">SiteMap</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <section id="footer-two">
-    <div class="container">
-      <a style="color: #ff9719; cursor: pointer;" onclick="javascript:ShowHide('HiddenDiv')">More info</a>
-      <br>
-      <div class="mid" id="HiddenDiv" style="display: none;">
-        <div class="row" id="more">
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Room for rent in Delhi</a></li>
-              <li><a href="#">Room for boys in Delhi</a></li>
-              <li><a href="#">Room for girls in Delhi</a></li>
-              <li><a href="#">Room for family in Delhi</a></li>
-              <li><a href="#">Room for couple in Delhi</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">PG for rent in Delhi</a></li>
-              <li><a href="#">PG for boys in Delhi</a></li>
-              <li><a href="#">PG for girls in Delhi</a></li>
-              <li><a href="#">PG for family in Delhi</a></li>
-              <li><a href="#">PG for couple in Delhi</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Hostel for rent in Delhi</a></li>
-              <li><a href="#">Hostel for boys in Delhi</a></li>
-              <li><a href="#">Hostel for girls in Delhi</a></li>
-              <li><a href="#">Hostel for family in Delhi</a></li>
-              <li><a href="#">Hostel for couple in Delhi</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Flats for rent in Delhi</a></li>
-              <li><a href="#">Flats for boys in Delhi</a></li>
-              <li><a href="#">Flats for girls in Delhi</a></li>
-              <li><a href="#">Flats for family in Delhi</a></li>
-              <li><a href="#">Flats for couple in Delhi</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Apartments for rent in Delhi</a></li>
-              <li><a href="#">Apartments for boys in Delhi</a></li>
-              <li><a href="#">Apartments for girls in Delhi</a></li>
-              <li><a href="#">Apartments for family in Delhi</a></li>
-              <li><a href="#">Apartments for couple in Delhi</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">House for rent in Delhi</a></li>
-              <li><a href="#">House for boys in Delhi</a></li>
-              <li><a href="#">House for girls in Delhi</a></li>
-              <li><a href="#">House for family in Delhi</a></li>
-              <li><a href="#">House for couple in Delhi</a></li>
-            </ul>
-          </div>
-
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Room for rent in Kota</a></li>
-              <li><a href="#">Room for boys in Kota</a></li>
-              <li><a href="#">Room for girls in Kota</a></li>
-              <li><a href="#">Room for family in Kota</a></li>
-              <li><a href="#">Room for couple in Kota</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">PG for rent in Kota</a></li>
-              <li><a href="#">PG for boys in Kota</a></li>
-              <li><a href="#">PG for girls in Kota</a></li>
-              <li><a href="#">PG for family in Kota</a></li>
-              <li><a href="#">PG for couple in Kota</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Hostel for rent in Kota</a></li>
-              <li><a href="#">Hostel for boys in Kota</a></li>
-              <li><a href="#">Hostel for girls in Kota</a></li>
-              <li><a href="#">Hostel for family in Kota</a></li>
-              <li><a href="#">Hostel for couple in Kota</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Flats for rent in Kota</a></li>
-              <li><a href="#">Flats for boys in Kota</a></li>
-              <li><a href="#">Flats for girls in Kota</a></li>
-              <li><a href="#">Flats for family in Kota</a></li>
-              <li><a href="#">Flats for couple in Kota</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Apartments for rent in Kota</a></li>
-              <li><a href="#">Apartments for boys in Kota</a></li>
-              <li><a href="#">Apartments for girls in Kota</a></li>
-              <li><a href="#">Apartments for family in Kota</a></li>
-              <li><a href="#">Apartments for couple in Kota</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">House for rent in Kota</a></li>
-              <li><a href="#">House for boys in Kota</a></li>
-              <li><a href="#">House for girls in Kota</a></li>
-              <li><a href="#">House for family in Kota</a></li>
-              <li><a href="#">House for couple in Kota</a></li>
-            </ul>
-          </div>
-
-
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Room for rent in Varanasi</a></li>
-              <li><a href="#">Room for boys in Varanasi</a></li>
-              <li><a href="#">Room for girls in Varanasi</a></li>
-              <li><a href="#">Room for family in Varanasi</a></li>
-              <li><a href="#">Room for couple in Varanasi</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">PG for rent in Varanasi</a></li>
-              <li><a href="#">PG for boys in Varanasi</a></li>
-              <li><a href="#">PG for girls in Varanasi</a></li>
-              <li><a href="#">PG for family in Varanasi</a></li>
-              <li><a href="#">PG for couple in Varanasi</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Hostel for rent in Varanasi</a></li>
-              <li><a href="#">Hostel for boys in Varanasi</a></li>
-              <li><a href="#">Hostel for girls in Varanasi</a></li>
-              <li><a href="#">Hostel for family in Varanasi</a></li>
-              <li><a href="#">Hostel for couple in Varanasi</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Flats for rent in Varanasi</a></li>
-              <li><a href="#">Flats for boys in Varanasi</a></li>
-              <li><a href="#">Flats for girls in Varanasi</a></li>
-              <li><a href="#">Flats for family in Varanasi</a></li>
-              <li><a href="#">Flats for couple in Varanasi</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Apartments for rent in Varanasi</a></li>
-              <li><a href="#">Apartments for boys in Varanasi</a></li>
-              <li><a href="#">Apartments for girls in Varanasi</a></li>
-              <li><a href="#">Apartments for family in Varanasi</a></li>
-              <li><a href="#">Apartments for couple in Varanasi</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">House for rent in Varanasi</a></li>
-              <li><a href="#">House for boys in Varanasi</a></li>
-              <li><a href="#">House for girls in Varanasi</a></li>
-              <li><a href="#">House for family in Varanasi</a></li>
-              <li><a href="#">House for couple in Varanasi</a></li>
-            </ul>
-          </div>
-
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Room for rent in Patna</a></li>
-              <li><a href="#">Room for boys in Patna</a></li>
-              <li><a href="#">Room for girls in Patna</a></li>
-              <li><a href="#">Room for family in Patna</a></li>
-              <li><a href="#">Room for couple in Patna</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">PG for rent in Patna</a></li>
-              <li><a href="#">PG for boys in Patna</a></li>
-              <li><a href="#">PG for girls in Patna</a></li>
-              <li><a href="#">PG for family in Patna</a></li>
-              <li><a href="#">PG for couple in Patna</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Hostel for rent in Patna</a></li>
-              <li><a href="#">Hostel for boys in Patna</a></li>
-              <li><a href="#">Hostel for girls in Patna</a></li>
-              <li><a href="#">Hostel for family in Patna</a></li>
-              <li><a href="#">Hostel for couple in Patna</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Flats for rent in Patna</a></li>
-              <li><a href="#">Flats for boys in Patna</a></li>
-              <li><a href="#">Flats for girls in Patna</a></li>
-              <li><a href="#">Flats for family in Patna</a></li>
-              <li><a href="#">Flats for couple in Patna</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">Apartments for rent in Patna</a></li>
-              <li><a href="#">Apartments for boys in Patna</a></li>
-              <li><a href="#">Apartments for girls in Patna</a></li>
-              <li><a href="#">Apartments for family in Patna</a></li>
-              <li><a href="#">Apartments for couple in Patna</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-4">
-            <ul class="footer-two-links">
-              <li><a href="#">House for rent in Patna</a></li>
-              <li><a href="#">House for boys in Patna</a></li>
-              <li><a href="#">House for girls in Patna</a></li>
-              <li><a href="#">House for family in Patna</a></li>
-              <li><a href="#">House for couple in Patna</a></li>
-            </ul>
-          </div>
-          <br>
-          <div class="col-xs-6 col-sm-3">
-            <ul class="footer-two-links">
-              <li><a href="#">Electrician in Delhi</a></li>
-              <li><a href="#">Plumber in Delhi</a></li>
-              <li><a href="#">Repair & Maintenance in Delhi</a></li>
-              <li><a href="#">Home Tuition in Delhi</a></li>
-              <li><a href="#">Newspaper-Wala in Delhi</a></li>
-              <li><a href="#">Salon in Delhi</a></li>
-              <li><a href="#">Hair-Cut in Delhi</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-3">
-            <ul class="footer-two-links">
-              <li><a href="#">Electrician in Varanasi</a></li>
-              <li><a href="#">Plumber in Varanasi</a></li>
-              <li><a href="#">Repair & Maintenance in Varanasi</a></li>
-              <li><a href="#">Home Tuition in Varanasi</a></li>
-              <li><a href="#">Newspaper-Wala in Varanasi</a></li>
-              <li><a href="#">Salon in Varanasi</a></li>
-              <li><a href="#">Hair-Cut in Varanasi</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-3">
-            <ul class="footer-two-links">
-              <li><a href="#">Electrician in Patna</a></li>
-              <li><a href="#">Plumber in Patna</a></li>
-              <li><a href="#">Repair & Maintenance in Patna</a></li>
-              <li><a href="#">Home Tuition in Patna</a></li>
-              <li><a href="#">Newspaper-Wala in Patna</a></li>
-              <li><a href="#">Salon in Patna</a></li>
-              <li><a href="#">Hair-Cut in Patna</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-sm-3">
-            <ul class="footer-two-links">
-              <li><a href="#">Electrician in Kota</a></li>
-              <li><a href="#">Plumber in Kota</a></li>
-              <li><a href="#">Repair & Maintenance in Kota</a></li>
-              <li><a href="#">Home Tuition in Kota</a></li>
-              <li><a href="#">Newspaper-Wala in Kota</a></li>
-              <li><a href="#">Salon in Kota</a></li>
-              <li><a href="#">Hair-Cut in Kota</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <br>
-          <a href="mailto:info@sheltown.com">info@sheltown.com</a>
-          <br>
-          <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved
-
-          </p>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <br>
-          <ul class="social-icons">
-            <li><a href="https://www.facebook.com/sheltown.india" class="fa fa-facebook"></a></li>
-            <li><a class="twitter" href="https://twitter.com/OwnShelt?s=20"><i class="fa fa-twitter"></i></a></li>
-            <li><a class="dribbble" href="https://instagram.com/sheltown.india"><i class="fa fa-instagram"></i></a></li>
-            <li><a class="linkedin" href="https://www.linkedin.com/company/sheltown"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section><!-- #footer -->
-
-         <!--Modal-->
-<div class="modal fade container-fluid" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">Create Account</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="col-xs-6 col-md-3 quick-text">
+                    <ul class="footer-links">
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="blog-description-page.html">Blogs</a></li>
+                        <li><a href="work-with-us.html">Join our Team</a></li>
+                        <li><a href="become-partner.html">List your Property</a></li>
+                        <li><a href="become-partner.html">Become our Service Partner</a></li>
+                        <li><a href="#">SiteMap</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="modal-body">
-                <div class="form-group">
-                    <form id="first">
-                        <div class="row" style="margin-top: 5px; margin-bottom: 15px;"> 
-                            <div class="col-sm-3"><input type="radio" name="user" checked><small>&nbspUser</small></div>
-                            <div class="col-sm-4"><input type="radio" name="user"><small>&nbspProperty Owner</small></div>
-                            <div class="col-sm-4"><input type="radio" name="user"><small>&nbspService Provider</small></div>
-                        </div>
-                        Enter your Phone Number<br>
-                        <input required type="tel" placeholder="+91" pattern="[7-9]{1}[0-9]{9}" maxlength="10" minlength="10" title="Enter a valid phone number" style="width:100%;border-radius: 5px; padding: 5px; margin: 5px 0;"><br>
-                        <small>Your information is safe with us</small>
-                        <br><br>
-                        <input required type="checkbox">&nbspBy continuing, you agree to our <a href="policy-page.html">Terms and Conditions</a>
-                        <br>
-                        <center><input type="submit" class="btn btn-success" value="Send OTP" style="margin: 5px 0;"></center>
-                        <center><small>Already have an account? <a href="login-user.html">Log In now</a></small></center>
-                    </form>
+        </div>
+    </footer>
+    <section id="footer-two">
+        <div class="container">
+            <a style="color: #ff9719; cursor: pointer;" onclick="javascript:ShowHide('HiddenDiv')">More info</a>
+            <br>
+            <div class="mid" id="HiddenDiv" style="display: none;">
+                <div class="row" id="more">
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Room for rent in Delhi</a></li>
+                            <li><a href="#">Room for boys in Delhi</a></li>
+                            <li><a href="#">Room for girls in Delhi</a></li>
+                            <li><a href="#">Room for family in Delhi</a></li>
+                            <li><a href="#">Room for couple in Delhi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">PG for rent in Delhi</a></li>
+                            <li><a href="#">PG for boys in Delhi</a></li>
+                            <li><a href="#">PG for girls in Delhi</a></li>
+                            <li><a href="#">PG for family in Delhi</a></li>
+                            <li><a href="#">PG for couple in Delhi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Hostel for rent in Delhi</a></li>
+                            <li><a href="#">Hostel for boys in Delhi</a></li>
+                            <li><a href="#">Hostel for girls in Delhi</a></li>
+                            <li><a href="#">Hostel for family in Delhi</a></li>
+                            <li><a href="#">Hostel for couple in Delhi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Flats for rent in Delhi</a></li>
+                            <li><a href="#">Flats for boys in Delhi</a></li>
+                            <li><a href="#">Flats for girls in Delhi</a></li>
+                            <li><a href="#">Flats for family in Delhi</a></li>
+                            <li><a href="#">Flats for couple in Delhi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Apartments for rent in Delhi</a></li>
+                            <li><a href="#">Apartments for boys in Delhi</a></li>
+                            <li><a href="#">Apartments for girls in Delhi</a></li>
+                            <li><a href="#">Apartments for family in Delhi</a></li>
+                            <li><a href="#">Apartments for couple in Delhi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">House for rent in Delhi</a></li>
+                            <li><a href="#">House for boys in Delhi</a></li>
+                            <li><a href="#">House for girls in Delhi</a></li>
+                            <li><a href="#">House for family in Delhi</a></li>
+                            <li><a href="#">House for couple in Delhi</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Room for rent in Kota</a></li>
+                            <li><a href="#">Room for boys in Kota</a></li>
+                            <li><a href="#">Room for girls in Kota</a></li>
+                            <li><a href="#">Room for family in Kota</a></li>
+                            <li><a href="#">Room for couple in Kota</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">PG for rent in Kota</a></li>
+                            <li><a href="#">PG for boys in Kota</a></li>
+                            <li><a href="#">PG for girls in Kota</a></li>
+                            <li><a href="#">PG for family in Kota</a></li>
+                            <li><a href="#">PG for couple in Kota</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Hostel for rent in Kota</a></li>
+                            <li><a href="#">Hostel for boys in Kota</a></li>
+                            <li><a href="#">Hostel for girls in Kota</a></li>
+                            <li><a href="#">Hostel for family in Kota</a></li>
+                            <li><a href="#">Hostel for couple in Kota</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Flats for rent in Kota</a></li>
+                            <li><a href="#">Flats for boys in Kota</a></li>
+                            <li><a href="#">Flats for girls in Kota</a></li>
+                            <li><a href="#">Flats for family in Kota</a></li>
+                            <li><a href="#">Flats for couple in Kota</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Apartments for rent in Kota</a></li>
+                            <li><a href="#">Apartments for boys in Kota</a></li>
+                            <li><a href="#">Apartments for girls in Kota</a></li>
+                            <li><a href="#">Apartments for family in Kota</a></li>
+                            <li><a href="#">Apartments for couple in Kota</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">House for rent in Kota</a></li>
+                            <li><a href="#">House for boys in Kota</a></li>
+                            <li><a href="#">House for girls in Kota</a></li>
+                            <li><a href="#">House for family in Kota</a></li>
+                            <li><a href="#">House for couple in Kota</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Room for rent in Varanasi</a></li>
+                            <li><a href="#">Room for boys in Varanasi</a></li>
+                            <li><a href="#">Room for girls in Varanasi</a></li>
+                            <li><a href="#">Room for family in Varanasi</a></li>
+                            <li><a href="#">Room for couple in Varanasi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">PG for rent in Varanasi</a></li>
+                            <li><a href="#">PG for boys in Varanasi</a></li>
+                            <li><a href="#">PG for girls in Varanasi</a></li>
+                            <li><a href="#">PG for family in Varanasi</a></li>
+                            <li><a href="#">PG for couple in Varanasi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Hostel for rent in Varanasi</a></li>
+                            <li><a href="#">Hostel for boys in Varanasi</a></li>
+                            <li><a href="#">Hostel for girls in Varanasi</a></li>
+                            <li><a href="#">Hostel for family in Varanasi</a></li>
+                            <li><a href="#">Hostel for couple in Varanasi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Flats for rent in Varanasi</a></li>
+                            <li><a href="#">Flats for boys in Varanasi</a></li>
+                            <li><a href="#">Flats for girls in Varanasi</a></li>
+                            <li><a href="#">Flats for family in Varanasi</a></li>
+                            <li><a href="#">Flats for couple in Varanasi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Apartments for rent in Varanasi</a></li>
+                            <li><a href="#">Apartments for boys in Varanasi</a></li>
+                            <li><a href="#">Apartments for girls in Varanasi</a></li>
+                            <li><a href="#">Apartments for family in Varanasi</a></li>
+                            <li><a href="#">Apartments for couple in Varanasi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">House for rent in Varanasi</a></li>
+                            <li><a href="#">House for boys in Varanasi</a></li>
+                            <li><a href="#">House for girls in Varanasi</a></li>
+                            <li><a href="#">House for family in Varanasi</a></li>
+                            <li><a href="#">House for couple in Varanasi</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Room for rent in Patna</a></li>
+                            <li><a href="#">Room for boys in Patna</a></li>
+                            <li><a href="#">Room for girls in Patna</a></li>
+                            <li><a href="#">Room for family in Patna</a></li>
+                            <li><a href="#">Room for couple in Patna</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">PG for rent in Patna</a></li>
+                            <li><a href="#">PG for boys in Patna</a></li>
+                            <li><a href="#">PG for girls in Patna</a></li>
+                            <li><a href="#">PG for family in Patna</a></li>
+                            <li><a href="#">PG for couple in Patna</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Hostel for rent in Patna</a></li>
+                            <li><a href="#">Hostel for boys in Patna</a></li>
+                            <li><a href="#">Hostel for girls in Patna</a></li>
+                            <li><a href="#">Hostel for family in Patna</a></li>
+                            <li><a href="#">Hostel for couple in Patna</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Flats for rent in Patna</a></li>
+                            <li><a href="#">Flats for boys in Patna</a></li>
+                            <li><a href="#">Flats for girls in Patna</a></li>
+                            <li><a href="#">Flats for family in Patna</a></li>
+                            <li><a href="#">Flats for couple in Patna</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Apartments for rent in Patna</a></li>
+                            <li><a href="#">Apartments for boys in Patna</a></li>
+                            <li><a href="#">Apartments for girls in Patna</a></li>
+                            <li><a href="#">Apartments for family in Patna</a></li>
+                            <li><a href="#">Apartments for couple in Patna</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <ul class="footer-two-links">
+                            <li><a href="#">House for rent in Patna</a></li>
+                            <li><a href="#">House for boys in Patna</a></li>
+                            <li><a href="#">House for girls in Patna</a></li>
+                            <li><a href="#">House for family in Patna</a></li>
+                            <li><a href="#">House for couple in Patna</a></li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div class="col-xs-6 col-sm-3">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Electrician in Delhi</a></li>
+                            <li><a href="#">Plumber in Delhi</a></li>
+                            <li><a href="#">Repair & Maintenance in Delhi</a></li>
+                            <li><a href="#">Home Tuition in Delhi</a></li>
+                            <li><a href="#">Newspaper-Wala in Delhi</a></li>
+                            <li><a href="#">Salon in Delhi</a></li>
+                            <li><a href="#">Hair-Cut in Delhi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Electrician in Varanasi</a></li>
+                            <li><a href="#">Plumber in Varanasi</a></li>
+                            <li><a href="#">Repair & Maintenance in Varanasi</a></li>
+                            <li><a href="#">Home Tuition in Varanasi</a></li>
+                            <li><a href="#">Newspaper-Wala in Varanasi</a></li>
+                            <li><a href="#">Salon in Varanasi</a></li>
+                            <li><a href="#">Hair-Cut in Varanasi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Electrician in Patna</a></li>
+                            <li><a href="#">Plumber in Patna</a></li>
+                            <li><a href="#">Repair & Maintenance in Patna</a></li>
+                            <li><a href="#">Home Tuition in Patna</a></li>
+                            <li><a href="#">Newspaper-Wala in Patna</a></li>
+                            <li><a href="#">Salon in Patna</a></li>
+                            <li><a href="#">Hair-Cut in Patna</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                        <ul class="footer-two-links">
+                            <li><a href="#">Electrician in Kota</a></li>
+                            <li><a href="#">Plumber in Kota</a></li>
+                            <li><a href="#">Repair & Maintenance in Kota</a></li>
+                            <li><a href="#">Home Tuition in Kota</a></li>
+                            <li><a href="#">Newspaper-Wala in Kota</a></li>
+                            <li><a href="#">Salon in Kota</a></li>
+                            <li><a href="#">Hair-Cut in Kota</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <form id="second" style="display:none;">
-                        <p>Phone Number: +91-1234567890 <button type="button" class="btn btn-secondary" id="back" style="float: right;">Change Number</button></p>
-                        <br>
-                        Enter OTP
-                        <input required type="text" placeholder="xxxxxx" minlength="6" maxlength="6" style="width:100%;border-radius: 5px; padding: 5px; margin: 5px 0;">
-                        <center><input type="submit" class="btn btn-success" value="Verify"></center>
-                        <br>
-                        <p>xx:xx time left<button type="button" class="btn btn-warning" style="float: right; padding: 3px;"><small>Resend OTP</small></button></p>
-                    </form>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <br>
+                    <a href="mailto:info@sheltown.com">info@sheltown.com</a>
+                    <br>
+                    <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved
+
+                    </p>
                 </div>
-                <div class="form-group">
-                    <form id="third" style="display: none;">
-                        <p>Verified Phone Number: +91 1234567890</p>
-                        <table style="width: 100%">
-                            <tr>
-                                <td>Name&nbsp</td>
-                                <td><input required type="text" placeholder="Name" style="width:100%;border-radius: 5px; padding: 5px; margin: 5px 0;"></td>
-                            </tr>
-                            <tr>
-                                <td>Email&nbsp</td>
-                                <td><input required type="email" placeholder="e-mail" style="width:100%;border-radius: 5px; padding: 5px; margin: 5px 0;"></td>
-                            </tr>
-                            <tr>
-                                <td>Password&nbsp</td>
-                                <td><input required type="password" placeholder="Password" style="width:100%;border-radius: 5px; padding: 5px; margin: 5px 0;"></td>
-                            </tr>
-                        </table>
-                        <br>
-                        <center><input type="submit" class="btn btn-success" value="Create Account"></center>
-                    </form>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <br>
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/sheltown.india" class="fa fa-facebook"></a></li>
+                        <li><a class="twitter" href="https://twitter.com/OwnShelt?s=20"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="https://instagram.com/sheltown.india"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="linkedin" href="https://www.linkedin.com/company/sheltown"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
                 </div>
-                <div class="form-group">
-                    <form id="fourth" style="display:none;">
-                        <hr>
-                        <div class="google-btn" style="margin: 0 auto;">
-                            <div class="google-icon-wrapper">
-                                <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+            </div>
+        </div>
+    </section><!-- #footer -->
+
+    <!--Modal-->
+    <div class="modal fade container-fluid" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Create Account</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <form id="first">
+                            <div class="row" style="margin-top: 5px; margin-bottom: 15px;">
+                                <div class="col-sm-3"><input type="radio" name="user" checked><small>&nbspUser</small></div>
+                                <div class="col-sm-4"><input type="radio" name="user"><small>&nbspProperty Owner</small></div>
+                                <div class="col-sm-4"><input type="radio" name="user"><small>&nbspService Provider</small></div>
                             </div>
-                            <a href="#" class="btn-text"><b>Sign in with google</b></a>
-                        </div>
-                    </form>
+                            Enter your Phone Number<br>
+                            <input required type="tel" placeholder="+91" pattern="[7-9]{1}[0-9]{9}" maxlength="10" minlength="10" title="Enter a valid phone number" style="width:100%;border-radius: 5px; padding: 5px; margin: 5px 0;"><br>
+                            <small>Your information is safe with us</small>
+                            <br><br>
+                            <input required type="checkbox">&nbspBy continuing, you agree to our <a href="policy-page.html">Terms and Conditions</a>
+                            <br>
+                            <center><input type="submit" class="btn btn-success" value="Send OTP" style="margin: 5px 0;"></center>
+                            <center><small>Already have an account? <a href="login-user.html">Log In now</a></small></center>
+                        </form>
+                    </div>
+                    <div class="form-group">
+                        <form id="second" style="display:none;">
+                            <p>Phone Number: +91-1234567890 <button type="button" class="btn btn-secondary" id="back" style="float: right;">Change Number</button></p>
+                            <br>
+                            Enter OTP
+                            <input required type="text" placeholder="xxxxxx" minlength="6" maxlength="6" style="width:100%;border-radius: 5px; padding: 5px; margin: 5px 0;">
+                            <center><input type="submit" class="btn btn-success" value="Verify"></center>
+                            <br>
+                            <p>xx:xx time left<button type="button" class="btn btn-warning" style="float: right; padding: 3px;"><small>Resend OTP</small></button></p>
+                        </form>
+                    </div>
+                    <div class="form-group">
+                        <form id="third" style="display: none;">
+                            <p>Verified Phone Number: +91 1234567890</p>
+                            <table style="width: 100%">
+                                <tr>
+                                    <td>Name&nbsp</td>
+                                    <td><input required type="text" placeholder="Name" style="width:100%;border-radius: 5px; padding: 5px; margin: 5px 0;"></td>
+                                </tr>
+                                <tr>
+                                    <td>Email&nbsp</td>
+                                    <td><input required type="email" placeholder="e-mail" style="width:100%;border-radius: 5px; padding: 5px; margin: 5px 0;"></td>
+                                </tr>
+                                <tr>
+                                    <td>Password&nbsp</td>
+                                    <td><input required type="password" placeholder="Password" style="width:100%;border-radius: 5px; padding: 5px; margin: 5px 0;"></td>
+                                </tr>
+                            </table>
+                            <br>
+                            <center><input type="submit" class="btn btn-success" value="Create Account"></center>
+                        </form>
+                    </div>
+                    <div class="form-group">
+                        <form id="fourth" style="display:none;">
+                            <hr>
+                            <div class="google-btn" style="margin: 0 auto;">
+                                <div class="google-icon-wrapper">
+                                    <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" />
+                                </div>
+                                <a href="#" class="btn-text"><b>Sign in with google</b></a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-group">
+                        <hr>
+                        <form id="fifth">
+                            <div class="row listbox" style="margin: 0 auto;">
+                                <div class="col-sm-6"><i class="fa fa-check"></i> Safety Guaranteed</div>
+                                <div class="col-sm-6"><i class="fa fa-check"></i> No Brokerage</div>
+                                <div class="col-sm-6"><i class="fa fa-check"></i> Ultimate Privacy</div>
+                                <div class="col-sm-6"><i class="fa fa-check"></i> Good Ambience</div>
+                                <div class="col-sm-6"><i class="fa fa-check"></i> Affordable</div>
+                                <div class="col-sm-6"><i class="fa fa-check"></i> Laissez-faire Policy</div>
+                                <div class="col-sm-6"><i class="fa fa-check"></i> SheltOwn Verified</div>
+                                <div class="col-sm-6"><i class="fa fa-check"></i> All-at-Home Services</div>
+                                <div class="col-sm-6"><i class="fa fa-check"></i> Round-the-Clock Assistance</div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="form-group"> 
-                <hr>
-                <form id="fifth">
-                  <div class="row listbox" style="margin: 0 auto;">
-                    <div class="col-sm-6"><i class="fa fa-check"></i> Safety Guaranteed</div>
-                    <div class="col-sm-6"><i class="fa fa-check"></i> No Brokerage</div>
-                    <div class="col-sm-6"><i class="fa fa-check"></i> Ultimate Privacy</div>
-                    <div class="col-sm-6"><i class="fa fa-check"></i> Good Ambience</div>
-                    <div class="col-sm-6"><i class="fa fa-check"></i> Affordable</div>
-                    <div class="col-sm-6"><i class="fa fa-check"></i> Laissez-faire Policy</div>
-                    <div class="col-sm-6"><i class="fa fa-check"></i> SheltOwn Verified</div>
-                    <div class="col-sm-6"><i class="fa fa-check"></i> All-at-Home Services</div>
-                    <div class="col-sm-6"><i class="fa fa-check"></i> Round-the-Clock Assistance</div>
-                  </div>
-                </form>
             </div>
         </div>
     </div>
-</div>
+
+        <script>
+            $('#first').submit(function(e) {
+                $('#first').hide();
+                $('#second').show();
+                $('#third').hide();
+                $('#fourth').hide();
+                e.preventDefault();
+                // Or with: return false;        
+            });
+            $('#second').submit(function(e) {
+                $('#first').hide();
+                $('#second').hide();
+                $('#third').show();
+                $('#fourth').show();
+                $('#fifth').hide();
+                e.preventDefault();
+                // Or with: return false;        
+            });
+
+            $('#back').click(function(e) {
+                $('#first').show();
+                $('#second').hide();
+                $('#third').hide();
+                $('#fourth').hide();
+                e.preventDefault();
+                // Or with: return false;        
+            });
+        </script>
 
 
-<script>
-$('#first').submit(function(e){
-    $('#first').hide(); 
-    $('#second').show(); 
-    $('#third').hide(); 
-    $('#fourth').hide(); 
-    e.preventDefault();
-    // Or with: return false;        
-});
-$('#second').submit(function(e){
-    $('#first').hide(); 
-    $('#second').hide();
-    $('#third').show(); 
-     $('#fourth').show(); 
-     $('#fifth').hide();
-    e.preventDefault();
-    // Or with: return false;        
-});
+        <!--  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a> -->
+        <script type="text/javascript">
+            // <![CDATA[
+            function ShowHide(divId) {
+                var atxt = document.getElementById("atext");
+                if (document.getElementById(divId).style.display == 'none') {
+                    document.getElementById(divId).style.display = 'block';
+                } else {
+                    document.getElementById(divId).style.display = 'none';
+                }
+            }
+            // ]]>
+        </script>
 
-$('#back').click(function(e){
-    $('#first').show(); 
-    $('#second').hide(); 
-    $('#third').hide(); 
-    $('#fourth').hide(); 
-    e.preventDefault();
-    // Or with: return false;        
-});
-</script>
-
-
-  <!--  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a> -->
-  <script type="text/javascript">
-    // <![CDATA[
-    function ShowHide(divId) {
-      var atxt = document.getElementById("atext");
-      if (document.getElementById(divId).style.display == 'none') {
-        document.getElementById(divId).style.display = 'block';
-      } else {
-        document.getElementById(divId).style.display = 'none';
-      }
-    }
-    // ]]>
-  </script>
-
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
-  <script src="lib/sticky/sticky.js"></script>
+        <!-- JavaScript Libraries -->
+        <script src="lib/jquery/jquery.min.js"></script>
+        <script src="lib/superfish/hoverIntent.js"></script>
+        <script src="lib/superfish/superfish.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+        <script src="lib/sticky/sticky.js"></script>
 
 
 
-  <script src="js/main.js"></script>
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js'></script>
-  <script id="rendered-js">
-    $('.responsive').slick({
-      dots: true,
-      prevArrow: $('.prev'),
-      nextArrow: $('.next'),
-      infinite: false,
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      responsive: [{
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true
-          }
-        },
+        <!-- Template Main Javascript File -->
+        <script src="js/main.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js'></script>
+        <script id="rendered-js">
+            $('.responsive').slick({
+                dots: true,
+                prevArrow: $('.prev'),
+                nextArrow: $('.next'),
+                infinite: false,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
 
 
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
 
 
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
 
 
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
-    //# sourceURL=pen.js
-  </script>
-  <!--Start of Tawk.to Script-->
-  <script type="text/javascript">
-    var Tawk_API = Tawk_API || {},
-      Tawk_LoadStart = new Date();
-    (function() {
-      var s1 = document.createElement("script"),
-        s0 = document.getElementsByTagName("script")[0];
-      s1.async = true;
-      s1.src = 'https://embed.tawk.to/5ee991aa9e5f69442290b6fb/default';
-      s1.charset = 'UTF-8';
-      s1.setAttribute('crossorigin', '*');
-      s0.parentNode.insertBefore(s1, s0);
-    })();
-  </script>
-  <!--End of Tawk.to Script-->
-</body>
-
-</html>
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+            //# sourceURL=pen.js
+        </script>
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {},
+                Tawk_LoadStart = new Date();
+            (function() {
+                var s1 = document.createElement("script"),
+                    s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/5ee991aa9e5f69442290b6fb/default';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
+</body></html>
